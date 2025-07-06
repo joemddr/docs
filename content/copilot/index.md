@@ -1,34 +1,37 @@
 ---
-title: GitHub Copilot
-shortTitle: GitHub Copilot
-intro: 'You can use {% data variables.product.prodname_copilot %} to get autocomplete-style suggestions from an AI pair programmer as you code.'
+title: '{% data variables.product.prodname_copilot %} documentation'
+shortTitle: '{% data variables.product.prodname_copilot %}'
+intro: 'You can use {% data variables.product.prodname_copilot %} to enhance your productivity and assist as you work on code.'
 redirect_from:
   - /github/copilot
+  - /copilot/using-github-copilot/using-github-copilot-for-pull-requests/using-copilot-to-help-you-work-on-a-pull-request
 changelog:
   label: copilot
 introLinks:
-  overview: /copilot/overview-of-github-copilot/about-github-copilot
-  quickstart: /copilot/quickstart
+  overview: /copilot/get-started/what-is-github-copilot
+  quickstart: /copilot/get-started/quickstart
 featuredLinks:
-  guides:
-    - /copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-visual-studio-code
-    - /copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-a-jetbrains-ide
-    - /copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-visual-studio
-    - /copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-neovim
+  startHere:
+    - /copilot/get-started/what-is-github-copilot
+    - /copilot/get-started/quickstart
+    - /copilot/how-tos/build-copilot-extensions/quickstart-for-github-copilot-extensions-using-agents
+    - /copilot/concepts/about-copilot-coding-agent
   popular:
-    - /billing/managing-billing-for-github-copilot/about-billing-for-github-copilot
-    - /copilot/configuring-github-copilot/configuring-github-copilot-in-visual-studio-code
-    - /copilot/configuring-github-copilot/configuring-github-copilot-in-a-jetbrains-ide
-    - /copilot/configuring-github-copilot/configuring-github-copilot-settings-on-githubcom
+    - /copilot/get-started/github-copilot-features
+    - /copilot/tutorials/copilot-chat-cookbook
+    - /copilot/how-tos/completions/getting-code-suggestions-in-your-ide-with-github-copilot
+    - /copilot/how-tos/chat/asking-github-copilot-questions-in-your-ide
+    - /copilot/how-tos/github-flow/using-github-copilot-in-the-command-line
 layout: product-landing
 versions:
   feature: copilot
 children:
-  - /quickstart
-  - /overview-of-github-copilot
-  - /getting-started-with-github-copilot
-  - /configuring-github-copilot
+  - /get-started
+  - /concepts
+  - /how-tos
+  - /reference
+  - /tutorials
+  - /responsible-use-of-github-copilot-features
 topics:
   - Copilot
 ---
-
